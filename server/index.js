@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3000;
 //CORS setup
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://e-learning-three-puce.vercel.app",
+  "https://lms-beta-snowy.vercel.app/"
 ];
 
 app.use(cors({
